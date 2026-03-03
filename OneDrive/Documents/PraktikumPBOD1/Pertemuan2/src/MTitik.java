@@ -25,5 +25,26 @@ public class MTitik {
         System.out.println("Jumlah Objek Titik= " + T3.getCounterTitik());
         System.out.println("Jumlah Objek Titik= " + T4.getCounterTitik());
 
+        System.out.println(T1.getKuadran());
+
+        System.out.println(T1.getJarakPusat());
+
+        Titik T5 = new Titik(); 
+        T5.setAbsis(5); 
+        T5.setOrdinat(6); 
+        System.out.println(T1.getJarak(T5));
+
+        T1.refleksiX();
+        T1.printTitik();
+
+        T5.refleksiY();
+        T5.printTitik();
+
+        Titik hasilT5 = T5.getRefleksiX();
+        hasilT5.printTitik();
+
+        Titik hasilT1 = T1.getRefleksiY();
+        hasilT1.printTitik();
+
     }
 }
