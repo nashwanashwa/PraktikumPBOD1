@@ -1,4 +1,9 @@
 package PBO07_24060124140150.Inclusion.Inclusion_civitasakademika;
+/* Nama File    : Seminar.java
+ * NIM          : 24060124140150  
+ * Nama         : Nashwa Aldebaran
+ * Tanggal      : 24 April 2026
+ */
 
 /* b.Kelas Seminar */
 public class Seminar {
