@@ -185,8 +185,8 @@ public class MysqlMahasiswaService {
     }
 
     public void insert(Mahasiswa mhs) {
-        add(mhs);
-    }
+    add(mhs);
+}
 
     public List<Mahasiswa> selectAll() {
         return getAll();
