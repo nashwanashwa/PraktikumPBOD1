@@ -185,10 +185,10 @@ public class MysqlMahasiswaService {
     }
 
     public void insert(Mahasiswa mhs) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        add(mhs);
     }
 
     public List<Mahasiswa> selectAll() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return getAll();
     }
 }
